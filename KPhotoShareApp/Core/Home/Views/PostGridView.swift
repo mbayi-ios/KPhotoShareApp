@@ -5,13 +5,11 @@ struct PostGridView: View {
 
     var body: some View {
         VStack {
-            Image("profile")
-                .resizable()
-                .aspectRatio( contentMode: .fill)
+            ImageView(post: post)
                 .frame(width: 120, height: 120)
-               .clipShape(RoundedRectangle(cornerRadius: 5))
 
             Text(post.id)
+                .font(.caption)
         }
     }
 }

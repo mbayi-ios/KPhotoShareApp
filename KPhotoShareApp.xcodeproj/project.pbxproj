@@ -18,6 +18,9 @@
 		899CEDD728C0C636009B5394 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDD628C0C636009B5394 /* HomeViewModel.swift */; };
 		899CEDDA28C0C7D8009B5394 /* PostDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDD928C0C7D8009B5394 /* PostDataService.swift */; };
 		899CEDE128C0CB05009B5394 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDE028C0CB05009B5394 /* NetworkingManager.swift */; };
+		899CEDE628C0CC9A009B5394 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDE528C0CC9A009B5394 /* ImageView.swift */; };
+		899CEDE828C0CCBC009B5394 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDE728C0CCBC009B5394 /* ImageViewModel.swift */; };
+		899CEDEA28C0CCDE009B5394 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDE928C0CCDE009B5394 /* ImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +36,9 @@
 		899CEDD628C0C636009B5394 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		899CEDD928C0C7D8009B5394 /* PostDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataService.swift; sourceTree = "<group>"; };
 		899CEDE028C0CB05009B5394 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		899CEDE528C0CC9A009B5394 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		899CEDE728C0CCBC009B5394 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
+		899CEDE928C0CCDE009B5394 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +95,7 @@
 		899CEDC628C0C2E0009B5394 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				899CEDE228C0CC67009B5394 /* Photo */,
 				899CEDC828C0C30A009B5394 /* Home */,
 			);
 			path = Core;
@@ -140,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				899CEDD928C0C7D8009B5394 /* PostDataService.swift */,
+				899CEDE928C0CCDE009B5394 /* ImageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -150,6 +158,31 @@
 				899CEDE028C0CB05009B5394 /* NetworkingManager.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		899CEDE228C0CC67009B5394 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				899CEDE428C0CC75009B5394 /* ViewModels */,
+				899CEDE328C0CC6F009B5394 /* View */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		899CEDE328C0CC6F009B5394 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				899CEDE528C0CC9A009B5394 /* ImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		899CEDE428C0CC75009B5394 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				899CEDE728C0CCBC009B5394 /* ImageViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,14 +255,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899CEDE628C0CC9A009B5394 /* ImageView.swift in Sources */,
 				899CEDCF28C0C520009B5394 /* PostGridView.swift in Sources */,
 				899CEDDA28C0C7D8009B5394 /* PostDataService.swift in Sources */,
 				899CEDD428C0C602009B5394 /* PreviewProvider.swift in Sources */,
 				899CEDD728C0C636009B5394 /* HomeViewModel.swift in Sources */,
+				899CEDEA28C0CCDE009B5394 /* ImageService.swift in Sources */,
 				899CEDD128C0C5C5009B5394 /* PostModel.swift in Sources */,
 				899CEDCC28C0C3EE009B5394 /* HomeView.swift in Sources */,
 				899CEDE128C0CB05009B5394 /* NetworkingManager.swift in Sources */,
 				899CEDBB28C0C232009B5394 /* ContentView.swift in Sources */,
+				899CEDE828C0CCBC009B5394 /* ImageViewModel.swift in Sources */,
 				899CEDB928C0C232009B5394 /* KPhotoShareAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
