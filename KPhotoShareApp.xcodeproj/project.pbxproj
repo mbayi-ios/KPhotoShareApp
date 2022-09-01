@@ -21,6 +21,7 @@
 		899CEDE628C0CC9A009B5394 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDE528C0CC9A009B5394 /* ImageView.swift */; };
 		899CEDE828C0CCBC009B5394 /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDE728C0CCBC009B5394 /* ImageViewModel.swift */; };
 		899CEDEA28C0CCDE009B5394 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDE928C0CCDE009B5394 /* ImageService.swift */; };
+		899CEDEC28C0CF26009B5394 /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDEB28C0CF26009B5394 /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		899CEDE528C0CC9A009B5394 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		899CEDE728C0CCBC009B5394 /* ImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewModel.swift; sourceTree = "<group>"; };
 		899CEDE928C0CCDE009B5394 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		899CEDEB28C0CF26009B5394 /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				899CEDE028C0CB05009B5394 /* NetworkingManager.swift */,
+				899CEDEB28C0CF26009B5394 /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				899CEDE628C0CC9A009B5394 /* ImageView.swift in Sources */,
+				899CEDEC28C0CF26009B5394 /* LocalFileManager.swift in Sources */,
 				899CEDCF28C0C520009B5394 /* PostGridView.swift in Sources */,
 				899CEDDA28C0C7D8009B5394 /* PostDataService.swift in Sources */,
 				899CEDD428C0C602009B5394 /* PreviewProvider.swift in Sources */,
