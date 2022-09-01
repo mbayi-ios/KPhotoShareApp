@@ -48,4 +48,5 @@ struct PostModel: Identifiable, Codable {
         let new_formatted = (formatted * 100).rounded()/100
         return "\(new_formatted)mb"
     }
+
 }
