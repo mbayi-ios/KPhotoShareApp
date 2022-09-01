@@ -43,12 +43,9 @@ struct PostModel: Identifiable, Codable {
         case createdAt = "created_at"
     }
 
-    func asNumberString() -> String {
-        return String(format: "%.2f")
-    }
-
     var mbSize: String {
         let formatted = size / 1000000
-        return "\(formatted.asNumberString())mb"
+        let new_formatted = (formatted * 100).rounded()/100
+        return "\(new_formatted)mb"
     }
 }
