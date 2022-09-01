@@ -1,6 +1,8 @@
 import SwiftUI
 
 struct PostGridView: View {
+    let post: PostModel
+
     var body: some View {
         VStack {
             Image("profile")
@@ -9,13 +11,14 @@ struct PostGridView: View {
                 .frame(width: 120, height: 120)
                .clipShape(RoundedRectangle(cornerRadius: 5))
 
+            Text(post.id)
         }
     }
 }
 
 struct PostGridView_Previews: PreviewProvider {
     static var previews: some View {
-        PostGridView()
+        PostGridView(post: dev.post)
             .previewLayout(.sizeThatFits)
     }
 }
