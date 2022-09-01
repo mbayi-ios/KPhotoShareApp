@@ -11,6 +11,7 @@
 		899CEDBB28C0C232009B5394 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDBA28C0C232009B5394 /* ContentView.swift */; };
 		899CEDBD28C0C235009B5394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899CEDBC28C0C235009B5394 /* Assets.xcassets */; };
 		899CEDC028C0C235009B5394 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899CEDBF28C0C235009B5394 /* Preview Assets.xcassets */; };
+		899CEDCC28C0C3EE009B5394 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDCB28C0C3EE009B5394 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		899CEDBA28C0C232009B5394 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		899CEDBC28C0C235009B5394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899CEDBF28C0C235009B5394 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		899CEDCB28C0C3EE009B5394 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		899CEDB728C0C232009B5394 /* KPhotoShareApp */ = {
 			isa = PBXGroup;
 			children = (
+				899CEDC728C0C2F4009B5394 /* Models */,
+				899CEDC628C0C2E0009B5394 /* Core */,
 				899CEDB828C0C232009B5394 /* KPhotoShareAppApp.swift */,
 				899CEDBA28C0C232009B5394 /* ContentView.swift */,
 				899CEDBC28C0C235009B5394 /* Assets.xcassets */,
@@ -65,6 +69,45 @@
 				899CEDBF28C0C235009B5394 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		899CEDC628C0C2E0009B5394 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				899CEDC828C0C30A009B5394 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		899CEDC728C0C2F4009B5394 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		899CEDC828C0C30A009B5394 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				899CEDCA28C0C320009B5394 /* ViewModels */,
+				899CEDC928C0C31A009B5394 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		899CEDC928C0C31A009B5394 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				899CEDCB28C0C3EE009B5394 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		899CEDCA28C0C320009B5394 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				899CEDCC28C0C3EE009B5394 /* HomeView.swift in Sources */,
 				899CEDBB28C0C232009B5394 /* ContentView.swift in Sources */,
 				899CEDB928C0C232009B5394 /* KPhotoShareAppApp.swift in Sources */,
 			);

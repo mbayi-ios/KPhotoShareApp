@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  KPhotoShareApp
-//
-//  Created by Amby on 01/09/2022.
-//
-
 import SwiftUI
 
 struct ContentView: View {
