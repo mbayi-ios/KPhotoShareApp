@@ -7,10 +7,13 @@ struct HomeView: View {
     let columns:[GridItem] =  Array(repeating: .init(.flexible(), spacing:2), count: 3)
 
     var body: some View {
-        NavigationView {
+        ScrollView {
             LazyVGrid(columns: columns, alignment: .center, spacing: 10){
                 ForEach(vm.allPosts) {post in
-                    PostGridView(post: post)
+                    NavigationLink(destination: DetailView(post: post), label: {
+                        PostGridView(post: post)
+                    })
+
                 }
             }
         }
