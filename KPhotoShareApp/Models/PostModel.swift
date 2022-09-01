@@ -27,7 +27,7 @@ import Foundation
 
 struct PostModel: Identifiable, Codable {
     let id, userID, mediaType, filename: String
-    let size: Int
+    let size: Double
     let createdAt: String
     let contentType: String
     let thumbnailURL, downloadURL: String
@@ -41,7 +41,14 @@ struct PostModel: Identifiable, Codable {
         case thumbnailURL = "thumbnail_url"
         case downloadURL = "download_url"
         case createdAt = "created_at"
+    }
 
+    func asNumberString() -> String {
+        return String(format: "%.2f")
+    }
 
+    var mbSize: String {
+        let formatted = size / 1000000
+        return "\(formatted.asNumberString())mb"
     }
 }
