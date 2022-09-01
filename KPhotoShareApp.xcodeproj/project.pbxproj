@@ -16,6 +16,7 @@
 		899CEDD128C0C5C5009B5394 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDD028C0C5C5009B5394 /* PostModel.swift */; };
 		899CEDD428C0C602009B5394 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDD328C0C602009B5394 /* PreviewProvider.swift */; };
 		899CEDD728C0C636009B5394 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDD628C0C636009B5394 /* HomeViewModel.swift */; };
+		899CEDDA28C0C7D8009B5394 /* PostDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDD928C0C7D8009B5394 /* PostDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		899CEDD028C0C5C5009B5394 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		899CEDD328C0C602009B5394 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		899CEDD628C0C636009B5394 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		899CEDD928C0C7D8009B5394 /* PostDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		899CEDB728C0C232009B5394 /* KPhotoShareApp */ = {
 			isa = PBXGroup;
 			children = (
+				899CEDD828C0C7C1009B5394 /* Services */,
 				899CEDD228C0C5F0009B5394 /* Extensions */,
 				899CEDC728C0C2F4009B5394 /* Models */,
 				899CEDC628C0C2E0009B5394 /* Core */,
@@ -128,6 +131,14 @@
 				899CEDD328C0C602009B5394 /* PreviewProvider.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		899CEDD828C0C7C1009B5394 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				899CEDD928C0C7D8009B5394 /* PostDataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				899CEDCF28C0C520009B5394 /* PostGridView.swift in Sources */,
+				899CEDDA28C0C7D8009B5394 /* PostDataService.swift in Sources */,
 				899CEDD428C0C602009B5394 /* PreviewProvider.swift in Sources */,
 				899CEDD728C0C636009B5394 /* HomeViewModel.swift in Sources */,
 				899CEDD128C0C5C5009B5394 /* PostModel.swift in Sources */,
