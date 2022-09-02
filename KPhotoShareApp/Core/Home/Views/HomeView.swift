@@ -2,7 +2,6 @@ import SwiftUI
 
 struct HomeView: View {
     @EnvironmentObject private var vm: HomeViewModel
-    @State private var selectedPost: PostModel? = nil
     
     let columns:[GridItem] =  Array(repeating: .init(.flexible(), spacing:2), count: 3)
     

@@ -49,4 +49,13 @@ struct PostModel: Identifiable, Codable {
         return "\(new_formatted)mb"
     }
 
+    var formatDate: Date {
+        let dateString = "2021-06-18T10:07:25Z"
+        let formatter = ISO8601DateFormatter()
+        let newDate = formatter.date(from: dateString)
+        formatter.formatOptions = [.withFullDate, .withTime, .withDashSeparatorInDate, .withColonSeparatorInTime]
+
+        return newDate ?? Date.now
+    }
+
 }

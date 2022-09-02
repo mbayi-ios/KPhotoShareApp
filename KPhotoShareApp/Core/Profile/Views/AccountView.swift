@@ -27,7 +27,17 @@ struct AccountView: View {
                         Text("FAQs")
                             .padding(.leading, 20)
                     }
+                    .contextMenu {
+                        Button(action: {}) {
+                            Text("How Do I View Images?")
+                        }
+                        Button(action: {}) {
+                            Text("Answer: Click the home button")
+                                .font(.caption)
+                        }
+                    }
                     .padding()
+
                     HStack {
                         Image(systemName: "info.circle.fill")
                             .resizable()
@@ -36,7 +46,13 @@ struct AccountView: View {
                             .padding(.leading, 20)
 
                     }
+                    .contextMenu {
+                        Button(action: {}) {
+                            Text("This App was created as an interview Assignment")
+                        }
+                    }
                     .padding()
+
                     HStack {
                         Image(systemName: "rectangle.portrait.and.arrow.right")
                             .resizable()

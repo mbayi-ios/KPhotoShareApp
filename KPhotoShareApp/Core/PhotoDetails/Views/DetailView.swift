@@ -4,7 +4,7 @@ struct DetailView: View {
     let post: PostModel
 
     var body: some View {
-        VStack{
+        ZStack{
             AsyncImage(url: URL(string: post.thumbnailURL), content: { returnedImage in
                 returnedImage
                     .resizable()
@@ -18,6 +18,20 @@ struct DetailView: View {
                 ProgressView()
             })
 
+            VStack {
+                Spacer()
+                Text("KPhotoShare")
+                    .font(.largeTitle)
+                    .fontWeight(.light)
+                Divider().background(Color.white)
+                Text("This image was created At.\n\n \(post.formatDate)")
+                    .fontWeight(.light)
+                Divider().background(Color.white)
+
+            }
+            .foregroundColor(.white)
+            .padding()
+            .padding(.bottom, 64)
 
         }
     }
