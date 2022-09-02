@@ -16,11 +16,6 @@ struct BottomTabView: View {
                     Image(systemName: "house.fill")
                 }
 
-            Text("Home")
-                .tabItem {
-                    Image(systemName: "heart.fill")
-                }
-
             AccountView()
                 .tabItem {
                     Image(systemName: "person.fill")
