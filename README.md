@@ -3,7 +3,7 @@
 KPhotoShareApp is an iPhone App that can be used to display images
 
 - Install the app and Enjoy using it
-- 
+
 ## Features
 
 - Able to fetch Images from REST API
