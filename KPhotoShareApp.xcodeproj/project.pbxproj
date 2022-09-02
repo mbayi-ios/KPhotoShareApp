@@ -26,6 +26,8 @@
 		899CEDF328C0D646009B5394 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDF228C0D646009B5394 /* DetailView.swift */; };
 		899CEDF728C12EA0009B5394 /* BottomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDF628C12EA0009B5394 /* BottomTabView.swift */; };
 		899CEDFB28C135D6009B5394 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899CEDFA28C135D6009B5394 /* AccountView.swift */; };
+		89CAA16B28C21778007EA324 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAA16A28C21778007EA324 /* OnboardingView.swift */; };
+		89CAA16D28C21792007EA324 /* StartScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAA16C28C21792007EA324 /* StartScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		899CEDF228C0D646009B5394 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		899CEDF628C12EA0009B5394 /* BottomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabView.swift; sourceTree = "<group>"; };
 		899CEDFA28C135D6009B5394 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		89CAA16A28C21778007EA324 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		89CAA16C28C21792007EA324 /* StartScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,7 @@
 		899CEDC628C0C2E0009B5394 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				89CAA16928C21763007EA324 /* Onboarding */,
 				899CEDF828C135B1009B5394 /* Profile */,
 				899CEDED28C0D614009B5394 /* PhotoDetails */,
 				899CEDE228C0CC67009B5394 /* Photo */,
@@ -240,6 +245,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		89CAA16928C21763007EA324 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				89CAA16A28C21778007EA324 /* OnboardingView.swift */,
+				89CAA16C28C21792007EA324 /* StartScreenView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,8 +327,10 @@
 				899CEDE628C0CC9A009B5394 /* ImageView.swift in Sources */,
 				899CEDEC28C0CF26009B5394 /* LocalFileManager.swift in Sources */,
 				899CEDCF28C0C520009B5394 /* PostGridView.swift in Sources */,
+				89CAA16B28C21778007EA324 /* OnboardingView.swift in Sources */,
 				899CEDFB28C135D6009B5394 /* AccountView.swift in Sources */,
 				899CEDDA28C0C7D8009B5394 /* PostDataService.swift in Sources */,
+				89CAA16D28C21792007EA324 /* StartScreenView.swift in Sources */,
 				899CEDD428C0C602009B5394 /* PreviewProvider.swift in Sources */,
 				899CEDD728C0C636009B5394 /* HomeViewModel.swift in Sources */,
 				899CEDEA28C0CCDE009B5394 /* ImageService.swift in Sources */,

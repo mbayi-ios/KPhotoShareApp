@@ -12,7 +12,8 @@ struct KPhotoShareAppApp: App {
     @StateObject private var vm = HomeViewModel()
     var body: some Scene {
         WindowGroup {
-                BottomTabView()
+            StartScreenView()
+                //BottomTabView()
             .environmentObject(vm)
 
         }

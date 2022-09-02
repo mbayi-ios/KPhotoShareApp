@@ -8,13 +8,15 @@
 import SwiftUI
 
 struct AccountView: View {
+    @AppStorage("name") var currentUserName: String?
+    @AppStorage("signed_in") var currentUserSignedIn: Bool = false
+
     var body: some View {
         NavigationView {
-
             List {
                 Section(header:
                             HStack {
-                    Text("Settings")
+                    Text(currentUserName ?? "user name")
                         .font(.title)
                     Image(systemName: "info.circle")
                 }){
@@ -43,10 +45,20 @@ struct AccountView: View {
                             .padding(.leading, 20)
                     }
                     .padding()
+                    .onTapGesture {
+                        signOut()
+                    }
 
                 }
             }
 
+        }
+    }
+
+    func signOut() {
+        currentUserName = nil
+        withAnimation(.spring()) {
+            currentUserSignedIn = false
         }
     }
 }
