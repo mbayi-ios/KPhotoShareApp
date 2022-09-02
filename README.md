@@ -22,7 +22,7 @@ Below are some of the screenshot from the app
 
 | Screenshot | D |
 | ------ | ------ |
-| <img src="https://user-images.githubusercontent.com/91916741/188209465-e908ce89-256d-40c8-84d7-98572492de71.png">|<img src="https://user-images.githubusercontent.com/91916741/188200119-51d16e64-1df7-49c5-83b1-320c2be42b7a.png" width="50%" />|
+| <img src="https://user-images.githubusercontent.com/91916741/188209465-e908ce89-256d-40c8-84d7-98572492de71.png" width="50%" />|<img src="https://user-images.githubusercontent.com/91916741/188200119-51d16e64-1df7-49c5-83b1-320c2be42b7a.png" width="50%" />|
 |  <img src="https://user-images.githubusercontent.com/91916741/188200121-830d0c90-8981-4f08-b19c-b50e9d195299.png" width="50%" /> |
 |<img src="https://user-images.githubusercontent.com/91916741/188200126-5fded7ff-1b98-45de-bfc8-8ec0436f8912.png" width="50%" />|<img src="https://user-images.githubusercontent.com/91916741/188200128-1cfd9f18-287a-478a-a449-f0738230ea8e.png" width="50%" />|
 |<img src="https://user-images.githubusercontent.com/91916741/188200135-b8ef3d92-6bdc-45a4-afdc-9f9bc05cdeb8.png" width="50%" />|<img src="https://user-images.githubusercontent.com/91916741/188200147-1404a74e-1353-472a-ab1e-6c9ca470ca21.png" width="50%" />| 
