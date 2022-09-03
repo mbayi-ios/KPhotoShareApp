@@ -2,6 +2,8 @@
 
 KPhotoShareApp is an iPhone App that can be used to display images
 
+- Using MVVM Architecture, Combine, Swift SwiftUI, AppStorage feature, fileManagement features
+
 - Install the app and Enjoy using it
 
 ## Features
